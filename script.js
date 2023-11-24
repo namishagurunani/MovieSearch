@@ -58,7 +58,7 @@ search.addEventListener("input", () => {
     if (searchTerm) {
       getMovies(SEARCHAPI + searchTerm);
     }
-  }, 300); // Adjust the delay (in milliseconds)
+  }, 300); // Adjust the delay (in milliseconds) 
 });
 document.addEventListener("DOMContentLoaded", () => {
     getMovies(APIURL);
