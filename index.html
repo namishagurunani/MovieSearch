@@ -2,21 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Search App</title>
+    <title>Movie Search</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
-    <header class="header">
-        <div id="theme-switcher">🌙</div>
-        <h1>Movie Search App</h1>
-        <input type="text" id="searchInput" placeholder="Search for a movie">
+    <header>
+        <form id="form" class="animate__animated animate__backInLeft">
+         
+            <input type="text" autocomplete="off" id="search" placeholder="Search" class="search">
+        </form>
     </header>
-    <main>
-        <div id="movieList"></div>
-        
+    <main id="main">
+   
     </main>
-    <div id="detailsPage" style="display: none;"></div>
+
+<!-- js here -->
     <script src="script.js"></script>
 </body>
 </html>
